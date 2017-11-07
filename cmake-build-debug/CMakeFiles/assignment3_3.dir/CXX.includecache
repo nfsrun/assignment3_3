@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/super/Dropbox/Bellevue College/CS300/assignment3_3/Launcher.cpp
+Validator.h
+/cygdrive/c/Users/super/Dropbox/Bellevue College/CS300/assignment3_3/Validator.h
+
+/cygdrive/c/Users/super/Dropbox/Bellevue College/CS300/assignment3_3/LinkedStack.h
+iostream
+-
+
+/cygdrive/c/Users/super/Dropbox/Bellevue College/CS300/assignment3_3/Validator.h
+iostream
+-
+LinkedStack.h
+/cygdrive/c/Users/super/Dropbox/Bellevue College/CS300/assignment3_3/LinkedStack.h
+
