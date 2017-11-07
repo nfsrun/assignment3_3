@@ -1,4 +1,4 @@
-# assignment3_3: LinkedStack.h
+# assignment3_3: Adding Big Integers
 ## Created By Kevin Tran
 ## Finished Version: 1.00 - 06/11/2017
 ## CS300 - Assignment 3
