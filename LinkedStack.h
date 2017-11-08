@@ -116,7 +116,7 @@ void LinkedStack<T>::push(T& data1){
 
     //if this if statement is valid, then the first node (front), will have its
     //data filled.
-    if(this->front==NULL){
+    if(isEmpty()){
         this->front=this->back = new node<T>;
         this->front->data=data1;
         this->curSize++;
