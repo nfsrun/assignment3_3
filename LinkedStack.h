@@ -1,14 +1,14 @@
 // Name         : LinkedStack.h
 // Modified     : Kevin Tran
-// Version      : 1.02 -- Fixed push method.
+// Version      : 1.03 -- Fixed constructor.
 // Description  : LinkedStack class implements itself as if it was a LinkedList
 // but behaviorally acts as if it was a Stack. It's public methods are there as
 // if it was a Stack. It's private variables are similar to those seen in
 // LinkedList and Stack. This LinkedStack, like other structures, can be used
 // for different types of Object types.
 
-#ifndef ASSIGNMENT3_1_LINKEDSTACK_H
-#define ASSIGNMENT3_1_LINKEDSTACK_H
+#ifndef ASSIGNMENT3_3_LINKEDSTACK_H
+#define ASSIGNMENT3_3_LINKEDSTACK_H
 
 #include <iostream>
 using namespace std;
@@ -25,7 +25,7 @@ struct node{
 
 template <class T>
 class LinkedStack {
-
+private:
     //curSize is the current number of elements inside the LinkedStack can have
     //while size is the maximum number of elements that a LinkedStack can hold.
     int size, curSize;
@@ -66,6 +66,7 @@ LinkedStack<T>::LinkedStack(int sizeSet) {
             << "values. Defaulted to unlimited (-1). ";
         sizeSet=-1;
     }
+    this->curSize=0;
     this->size = sizeSet;
 }
 
@@ -121,8 +122,8 @@ void LinkedStack<T>::push(T& data1){
         this->front->data=data1;
         this->curSize++;
 
-        //else if the LinkedStack is not full at the moment, make another node
-        //next to it so new data can be added to the rear.
+        //else if the LinkedStack is not full at the moment, make another node next
+        //to it so new data can be added to the rear.
     }else if(!isFull()){
         this->back->next = new node<T>;
         this->back=back->next;
@@ -184,4 +185,4 @@ void LinkedStack<T>::destroy(){
     }
 }
 
-#endif //ASSIGNMENT3_1_LINKEDSTACK_H
+#endif //ASSIGNMENT3_3_LINKEDSTACK_H
