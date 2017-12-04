@@ -14,6 +14,7 @@ next two parts of the assignment.
 ### Version Log
 ## 1.00 -- Initial Commit. 
 ## 1.01 -- Updated LinkedStack.h. 
+## 1.02 -- Revised Validator.h
 
 ### Clarifications on Instructions
 #### As of 11/06/2017

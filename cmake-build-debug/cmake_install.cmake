@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/c/Users/super/Dropbox/Bellevue College/CS300/assignment3_3
+# Install script for directory: /cygdrive/d/Users/super/Dropbox/Bellevue College/CS300/assignment3_3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/c/Users/super/Dropbox/Bellevue College/CS300/assignment3_3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/cygdrive/d/Users/super/Dropbox/Bellevue College/CS300/assignment3_3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
